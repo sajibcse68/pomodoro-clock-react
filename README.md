@@ -13,7 +13,7 @@ $ npm run start
 
 ## Live Demo
 
-Go to: bit.ly/pomodoro-clock
+Go to: http://bit.ly/pomodoro-clock
 
 <br/>
 
