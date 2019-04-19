@@ -9,7 +9,8 @@ class App extends Component {
     return (
       <React.Fragment>
         <header>
-          <h1>Promodoro Clock</h1>
+          <h1>Pomodoro Clock</h1>
+          <h2>Passed all 29 tests!</h2>
         </header>
 
         <PomodoroClock />
