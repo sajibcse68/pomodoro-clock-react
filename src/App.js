@@ -1,26 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { PomodoroClock } from "./components/PomodoroClock";
+import { Footer } from "./components/Footer";
+import "./styles/styles.sass";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+      <React.Fragment>
+        <header>
+          <h1>Promodoro Clock</h1>
         </header>
-      </div>
+
+        <PomodoroClock />
+
+        <Footer/>
+
+      </React.Fragment>
     );
   }
 }

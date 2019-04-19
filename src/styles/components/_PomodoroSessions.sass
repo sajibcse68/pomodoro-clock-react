@@ -1,0 +1,41 @@
+#sessions 
+   display: flex
+   flex-direction: row
+   justify-content: space-around
+   width: 100%
+   font-size: $m-size
+
+.sessions-container 
+   display: grid 
+   text-align: center
+
+.sessions-name 
+   margin: 8px 
+   text-transform: uppercase
+   font-size: $s-size
+
+.in-de-crementorsBtn 
+   color: $dark-faded
+   height: 30px
+   width: 30px
+   cursor: pointer
+   font-size: $s-size 
+   border-radius: 50%
+   margin: 5px
+   background-image: radial-gradient(circle, lighten($red-orange, 2%), $red-orange, darken($red-orange, 3%)) 
+   box-shadow: 0px 0px 7px -2px $red-orange
+   &:active 
+      box-shadow: 0px 0px 15px -2px $red-orange    
+
+.length-display
+   font-size: $m-size
+   margin-bottom: 8px
+
+@media only screen and (max-height: 420px)   
+   #sessions      
+      grid-column: 1 / 4
+      grid-row: 1 / 2 
+      justify-content: space-between
+      padding: 20px 40px 0 40px
+
+   
